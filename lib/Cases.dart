@@ -17,7 +17,7 @@ class _CasesState extends State<Cases> {
         width: double.infinity,
         child: Center(
           child: Text(
-            "1,82,000+",
+            "1M+",
             style: TextStyle(
                 color: Colors.white, fontSize: 28, fontWeight: FontWeight.bold),
           ),
@@ -99,8 +99,8 @@ class _CasesState extends State<Cases> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              boxes2("7,100+", 0xFFFA623F, "Death"),
-              boxes2("81,080+", 0xFF00D632, "Recover"),
+              boxes2("55,000+", 0xFFFA623F, "Death"),
+              boxes2("2,20,000+", 0xFF00D632, "Recover"),
             ],
           ),
           Container(
