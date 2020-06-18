@@ -1,3 +1,4 @@
+import 'package:covod19/Home.dart';
 import 'package:covod19/SplashScr.dart';
 import 'package:flutter/material.dart';
 import 'package:dynamic_theme/dynamic_theme.dart';
@@ -37,7 +38,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SplashScr(),
+      body: Home(),
     );
   }
 }
